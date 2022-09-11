@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class lab2_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please input your weight! ");
+        System.out.println("Please input your weight (kg)! ");
         float weight = scanner.nextFloat();
-        System.out.println("Next,please input your height! ");
+        System.out.println("Next,please input your height (m)! ");
         float height = scanner.nextFloat();
         float BMI = weight/(height*height);
         System.out.printf("Your BMI is %f\n", BMI);
