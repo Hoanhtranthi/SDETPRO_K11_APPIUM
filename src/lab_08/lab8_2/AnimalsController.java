@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-package lab_08.lab8_2;public class AnimalsController {
-=======
 package lab_08.lab8_2;
 
 import java.lang.reflect.Array;
@@ -37,5 +34,4 @@ public class AnimalsController {
 
 
     }
->>>>>>> origin/main
 }
