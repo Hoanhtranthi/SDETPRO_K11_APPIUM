@@ -11,19 +11,12 @@ public abstract class Animals {
     }
 
     public abstract Animals setName();
+
     public String getName() {
         return name;
     }
 
     public Animals() {
-    }
-
-    public Animals(int speed) {
-        this.speed = speed;
-    }
-    public Animals (String name, int speed){
-        this.name = name;
-        this.speed = speed;
     }
 
     @Override
